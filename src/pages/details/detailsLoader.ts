@@ -7,7 +7,7 @@ interface LoaderArgs{
 }
 
 export interface DetailsLoaderResult{
-    details:PackageDetails
+    details:PackageDetails;
 }
 
 export async function detailsLoader({params}:LoaderArgs) : Promise<DetailsLoaderResult>{
