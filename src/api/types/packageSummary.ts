@@ -1,7 +1,7 @@
 export interface PackageSummary {
-    name: String;
+    name: string;
     version: string;
-    description: String;
-    keywords: string[];
+    description: string;
+    keywords?: string[]; // might or might not present thus adding '?'
 
 }
